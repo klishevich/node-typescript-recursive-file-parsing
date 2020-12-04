@@ -1,0 +1,28 @@
+{
+  "name": "node-typescript-recursive-file-parsing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/collect-exports.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klishevich/node-typescript-recursive-file-parsing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klishevich/node-typescript-recursive-file-parsing/issues"
+  },
+  "homepage": "https://github.com/klishevich/node-typescript-recursive-file-parsing#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.10",
+    "ts-node": "^9.1.0",
+    "typescript": "^4.1.2"
+  }
+}
